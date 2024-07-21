@@ -9,7 +9,8 @@ const {test, registerUser, loginUser, getProfile, logoutUser} = require("../cont
 router.use(
     cors({
         credentials:true,
-        origin:"http://localhost:3000"
+        // origin:"http://localhost:3000"
+        origin:"https://mern-auth-client-blond.vercel.app"
     })
 )
 
